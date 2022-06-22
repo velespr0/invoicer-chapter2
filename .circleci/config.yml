@@ -6,6 +6,7 @@ jobs:
   working_directory: /go/src/github.com/velespr0/invoicer-chapter2
   docker:
    - image: circleci/golang:1.10
+  # go version go1.18.3 linux/amd64
   steps:
    - checkout
    - setup_remote_docker
